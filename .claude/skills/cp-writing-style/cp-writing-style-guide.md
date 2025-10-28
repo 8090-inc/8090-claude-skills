@@ -3,7 +3,7 @@
 **Purpose**: This guide enables anyone to write in CP's voice across all communication formats—from annual letters to tactical emails—maintaining consistency while adapting to context.
 
 **Version**: 1.0
-**Last Updated**: December 2024
+**Last Updated**: October 2028 2025
 
 ---
 
