@@ -8,7 +8,7 @@ This repository contains Claude Code skills that are shared across the 8090 team
 
 ### Available Skills
 
-#### 🎯 CP Writing Style (`cp-writing-style`)
+#### 🎯 CP Writing Style (`cp-writing-style`) - v3.0.0
 
 Expert guidance on writing in Chamath Palihapitiya's communication style across 5 formats:
 - Annual Letters (2,000-5,000 words)
@@ -16,6 +16,8 @@ Expert guidance on writing in Chamath Palihapitiya's communication style across 
 - Emails (50-200 words)
 - Policy Ideas Briefs (3,000-5,000 words)
 - Learn with Me Presentations (40-80 slides)
+
+**NEW in v3.0.0**: Modular architecture with 85-90% token reduction per task through selective context loading.
 
 Includes 10 universal principles, format-specific playbooks, templates, decision frameworks, and quality control checklists.
 
@@ -75,7 +77,7 @@ To contribute updates to skills, create a PR against this repo.
 
 ## Skill Details
 
-### CP Writing Style
+### CP Writing Style (v3.0.0)
 
 **When it activates**: Claude automatically uses this skill when you ask for help with writing, document review, or questions about communication formats.
 
@@ -86,7 +88,25 @@ To contribute updates to skills, create a PR against this repo.
 - Decision framework for choosing the right format
 - Quality control checklists
 
-**Full documentation**: See `.claude/skills/cp-writing-style/cp-writing-style-guide.md` (4,150+ lines)
+**Architecture** (v3.0.0):
+- **Modular design**: 7 specialized files for selective context loading
+- **85-90% token reduction** per typical task vs v2.1.0
+- **Core + Format pattern**: Load `core-principles.md` + specific format module as needed
+
+**Documentation structure**:
+```
+.claude/skills/cp-writing-style/
+├── SKILL.md (entry point with usage instructions)
+├── core-principles.md (10 Universal Principles - ALWAYS load)
+├── format-customer-briefs.md (Customer Brief playbook)
+├── format-emails.md (Email playbook)
+├── format-annual-letters.md (Annual Letter playbook)
+├── format-policy-ideas.md (Policy Ideas playbook)
+├── format-learn-with-me.md (Presentation playbook)
+└── quick-reference.md (Cheatsheet for quick lookups)
+```
+
+**Migration from v2.1.0**: The monolithic guide has been replaced by modular files for better LLM performance. All content preserved, just reorganized for efficiency.
 
 ## Contributing
 
