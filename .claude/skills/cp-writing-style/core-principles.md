@@ -69,23 +69,38 @@ These rules apply to **ALL** CP communications, regardless of format or audience
 
 **MUST**: Specific numbers always beat vague descriptors.
 
+**CRITICAL RULE - NEVER VIOLATE**:
+**YOU CANNOT FABRICATE DATA. YOU CANNOT INVENT NUMBERS. YOU CAN ONLY USE DATA FROM THE ORIGINAL SOURCE MATERIAL.**
+
+If data is missing, use bracketed placeholders: `[Need: annual CRD volume]` or explicitly state "data not available."
+
 **Application**:
-- Replace "significant," "major," "substantial" with actual metrics
-- Use percentages, dollar amounts, time periods
-- Provide context for numbers (comparisons, benchmarks)
+- Replace "significant," "major," "substantial" with actual metrics FROM THE SOURCE
+- Use percentages, dollar amounts, time periods FROM THE SOURCE
+- Provide context for numbers (comparisons, benchmarks) FROM THE SOURCE OR CITED REFERENCES
 - Round to meaningful precision (not false precision)
 - State constraints, limitations, dependencies explicitly
+- **When data is missing**: Use `[Need: description of missing data]` or state "no data available"
+- **When estimating**: Explicitly label as estimate AND cite methodology: "estimated ~$2M based on [cite source/method]"
 
 **Example**:
 ```
 ❌ "We saw significant growth this quarter"
-✅ "Revenue grew 47% QoQ from $2.1M to $3.1M"
+✅ "Revenue grew 47% QoQ from $2.1M to $3.1M" [IF YOU HAVE THIS DATA]
+✅ "Revenue grew [X%] QoQ from $[Y]M to $[Z]M [Need: Q3 and Q4 revenue figures]" [IF YOU DON'T]
 
 ❌ "The system is highly scalable"
-✅ "The system supports up to 10,000 concurrent users on our current AWS t3.large infrastructure. Beyond that, we need to upgrade to t3.xlarge ($140/month additional cost)"
+✅ "The system supports up to 10,000 concurrent users on our current AWS t3.large infrastructure. Beyond that, we need to upgrade to t3.xlarge ($140/month additional cost)" [IF YOU HAVE THIS DATA]
+✅ "The system supports up to [Need: load testing results] concurrent users on [Need: current infrastructure specs]" [IF YOU DON'T]
+
+❌ Making up "~$400K/yr in lost productivity" to replace vague language
+✅ "Review delays cost [Need: productivity cost analysis] per year"
+✅ "Review delays create backlogs [quantification TBD - requires time-motion study]"
 ```
 
-**When to deviate**: When precise data isn't available AND you explicitly state "no data available" or "estimated."
+**Why this matters**: Fabricated data is worse than vague language. Vague language signals uncertainty. Fabricated data signals false confidence and violates Principle 3 (Honesty First).
+
+**When to deviate**: Never. If you don't have data, say you don't have data.
 
 ---
 

@@ -100,8 +100,11 @@ Loaded: core-principles.md + format-emails.md"
 
 ## The 10 Universal Principles (Quick Reference)
 
+**🚨 CRITICAL: NEVER FABRICATE DATA 🚨**
+When applying Principle 2 (Data Over Adjectives), you can ONLY use data from the original source material. If data is missing, use bracketed placeholders `[Need: description]` or state "data not available." Fabricated numbers are worse than vague language.
+
 1. **Radical Clarity**: Say it simpler [MUST]
-2. **Data Over Adjectives**: Show numbers, not descriptions [MUST]
+2. **Data Over Adjectives**: Show numbers from source, not descriptions [MUST] - NEVER INVENT DATA
 3. **Honesty First**: Acknowledge failures upfront [MUST]
 4. **First-Principles Thinking**: Explain from fundamentals [SHOULD]
 5. **Economy of Language**: Cut every wasted word [MUST]
