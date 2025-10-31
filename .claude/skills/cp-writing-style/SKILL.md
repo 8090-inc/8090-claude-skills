@@ -68,6 +68,18 @@ Using CP Writing Style Guide v3.0.0 - Modular Architecture
 Loaded: core-principles.md + [format-module-name]
 ```
 
+### MANDATORY: 3-Pass Method
+
+**You have NOT applied CP style unless you complete all 3 passes:**
+
+1. **PASS 1**: Write to think (get ideas out, use placeholders)
+2. **PASS 2**: Apply ALL 10 principles (checklist in core-principles.md)
+3. **PASS 3**: Cut 30% more (ruthless editing)
+
+**FINAL CHECK**: Word count reduced 50-80% from Pass 1? All MUST principles applied?
+
+**If you skip Pass 2 or Pass 3, you have NOT applied CP style. You've only started.**
+
 ### Example Usage
 
 **Task: Help user write a customer brief**

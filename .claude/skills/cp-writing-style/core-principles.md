@@ -161,7 +161,7 @@ If data is missing, use bracketed placeholders: `[Need: annual CRD volume]` or e
 - Short sentences. Declarative statements.
 - Use complete sentences with subject and verb (fragments acceptable only in parallel bullet lists and tables)
 
-**The Two-Pass Cutting Method**:
+**The Three-Pass Cutting Method**:
 1. First pass: Write to think. Get ideas out.
 2. Second pass: Cut everything that doesn't drive the decision.
 3. Third pass: Read each sentence. Ask "Does this need to exist?" Cut 30% more.
@@ -458,15 +458,39 @@ Optimize in this order:
 2. Load appropriate format module
 3. Review these 10 principles
 
-**While writing**:
-1. First draft: Write to think. Don't self-edit yet.
-2. Second draft: Apply Principles 1-10 ruthlessly
-3. Third draft: Cut 30% more (Principle 5)
+**While writing** (MANDATORY 3-PASS METHOD):
 
-**During editing**:
-1. Run through principle checklist (see format modules for detailed checklists)
-2. Check banned words list
-3. Verify MUST principles are followed
+**PASS 1: Write to Think**
+- Get ideas out
+- Use placeholders for missing data
+- Don't self-edit yet
+
+**PASS 2: Apply All 10 Principles** (Don't skip any!)
+- [ ] **Principle 1 (Clarity)**: Plain language? Vague pronouns removed?
+- [ ] **Principle 2 (Data)**: Used only source data? Placeholders for missing data? NO FABRICATION?
+- [ ] **Principle 3 (Honesty)**: Failures acknowledged upfront?
+- [ ] **Principle 4 (First-Principles)**: Explained "why" from fundamentals? (if strategic doc)
+- [ ] **Principle 5 (Economy)**: Cut every wasted word? Removed corporate jargon?
+- [ ] **Principle 6 (Active Voice)**: "We do X" not "X is done"?
+- [ ] **Principle 7 (Context)**: Explained "why" this matters?
+- [ ] **Principle 8 (Attribution)**: Cited sources? (if applicable)
+- [ ] **Principle 9 (Forward)**: Clear next steps? Roadmap? Asks?
+- [ ] **Principle 10 (Format)**: Right structure for audience?
+
+**PASS 3: Ruthless Cutting** (Target: Cut 30% more)
+- Read each sentence
+- Ask: "Does this sentence need to exist?"
+- Ask: "Does this word drive the decision?"
+- If no → delete it
+- Check banned words list one more time
+
+**FINAL CHECK** (Before considering it "done"):
+- [ ] Word count reduced 50-80% from Pass 1?
+- [ ] All MUST principles applied?
+- [ ] All [Need: X] placeholders explicit (no fabricated data)?
+- [ ] Maximum signal-to-noise ratio achieved?
+
+**WARNING**: If you skip Pass 2 or Pass 3, you have NOT applied CP style. You've only started.
 
 **Remember**: This style prioritizes truth and clarity over politeness and comfort. Write to inform and drive action, not to impress or obscure.
 
