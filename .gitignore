@@ -35,8 +35,7 @@ Temporary Items
 *.log
 
 # Local configuration
-.claude/
-**/.claude/
+# .claude/ - Removed to allow skill files to be tracked
 
 # Source materials (keep private)
 samples/
