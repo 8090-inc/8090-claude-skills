@@ -4,10 +4,7 @@ version: 3.0.0
 lastUpdated: 2025-10-30
 description: Expert guidance on writing in Chamath Palihapitiya's communication style across 5 formats (Annual Letters, Customer Briefs, Emails, Policy Ideas Briefs, Learn with Me Presentations). Use when helping with any writing task, document creation, editing, reviewing communications, or answering questions about how to write something. Includes 10 universal principles, format-specific playbooks, templates, decision frameworks, and quality control checklists. MODULAR ARCHITECTURE: Optimized for LLM consumption with selective context loading (core + format).
 changelog: |
-  v3.0.0 (2025-10-30): **MAJOR ARCHITECTURAL REDESIGN** - Transformed from monolithic 28.9K word guide to modular system optimized for LLM consumption. Created 7 specialized files (core-principles.md + 5 format modules + quick-reference.md) totaling ~9.3K words. ELIMINATED Section 4 (100% redundant). Customer Briefs section reduced 75% (1,700 lines → 400 lines) while preserving all actionable insights. Added MUST/SHOULD/MAY hierarchy to every principle. Added "When to Deviate" guidance. Created decision trees throughout. Token reduction: 85-90% per typical task (54K → 4.5-8K tokens). See MIGRATION-GUIDE.md for complete mapping from v2.1.0 to v3.0.0.
-  v2.1.0 (2025-10-30): Added "The Prolific Cutting Rule" subsection to Principle 5 (Economy of Language) with three-stage cutting method targeting 50-80% reduction from first draft. Includes concrete before/after example showing progressive editing from corporate jargon (240 words) → first cut (85 words) → final cut (47 words). Added corporate jargon elimination list and balance principles for when NOT to cut.
-  v2.0.0 (2025-10-30): Added Section 3.6 Progress Update Briefs with 4 core editing principles, timeline table patterns, thematic statement structure, and strategic language translation framework.
-  v1.0.0 (2024-10-27): Initial comprehensive style guide with 10 universal principles and 5 format playbooks.
+  v3.0.0 (2025-10-30): **MAJOR ARCHITECTURAL REDESIGN** - Transformed from monolithic guide to modular system optimized for LLM consumption. Created 7 specialized files (core-principles.md + 5 format modules + quick-reference.md) totaling ~9.3K words. Added MUST/SHOULD/MAY hierarchy to every principle. Added "When to Deviate" guidance. Created decision trees throughout. Token reduction: 85-90% per typical task. Added CRITICAL RULE: Never fabricate data when applying "Data Over Adjectives" principle.
 ---
 
 # CP Writing Style Guide v3.0.0
@@ -24,15 +21,9 @@ Claude should invoke this skill when:
 - User asks about writing style, tone, structure, or formatting
 - User needs templates or examples for business communications
 
-## What's New in v3.0.0 (BREAKING CHANGES)
+## Modular Architecture
 
-### Architectural Redesign
-- **From**: Single 28.9K word file (54K tokens)
-- **To**: 7 modular files totaling 9.3K words (4.5-8K tokens per task)
-- **Reduction**: 68% total, 85-90% per typical use case
-- **Performance**: Selective context loading based on task type
-
-### New Modular File Structure
+### File Structure
 ```
 core-principles.md (~3K words) - ALWAYS LOAD
 format-customer-briefs.md (~1.5K words) - Load for customer briefs
@@ -43,14 +34,13 @@ format-learn-with-me.md (~1K words) - Load for presentations
 quick-reference.md (~1K words) - Optional cheatsheet
 ```
 
-### Major Improvements
+### Key Features
 1. **MUST/SHOULD/MAY hierarchy** explicit on all 10 principles
 2. **"When to Deviate" guidance** for each principle
 3. **Decision trees** throughout (format selection, pattern choice)
 4. **At-a-glance specs tables** for every format
 5. **Self-contained modules** - each format independently loadable
-6. **Flatter hierarchy** - Max 3 header levels (vs 4 in v2.1.0)
-7. **Eliminated redundancy** - Section 4 removed (100% duplicate)
+6. **CRITICAL RULE**: Never fabricate data - use bracketed placeholders when data is missing
 
 ## How to Use This Skill (v3.0.0)
 
@@ -173,47 +163,8 @@ Purpose: Educational deep-dive → Learn with Me (40-80 slides)
 | `format-policy-ideas.md` | Policy ideas playbook | Writing policy briefs |
 | `format-learn-with-me.md` | Presentation playbook | Creating presentations |
 | `quick-reference.md` | Cheatsheet (tables, checklists) | Quick lookups |
-| `MIGRATION-GUIDE.md` | v2.1.0 → v3.0.0 mapping | Understanding changes |
-| `cp-writing-style-guide.md` | v2.1.0 (legacy, preserved) | Backward compatibility |
-
-## What Got Eliminated in v3.0.0
-
-**Section 4: The 5-Part Framework Deep Dive**
-- **Why**: 100% redundant with Format Playbooks (Section 3)
-- **Status**: Content integrated into individual format modules
-- **Benefit**: Eliminated ~5K words of duplicate content
-
-## Token Efficiency Comparison
-
-| Task Type | v2.1.0 Tokens | v3.0.0 Tokens | Reduction |
-|-----------|---------------|---------------|-----------|
-| Email | ~54K | ~6.5K | 88% |
-| Customer Brief | ~54K | ~8K | 85% |
-| Annual Letter | ~54K | ~7K | 87% |
-| Policy Ideas | ~54K | ~8K | 85% |
-| Learn with Me | ~54K | ~8K | 85% |
-
-*v2.1.0: Always loaded entire 28.9K word guide (~54K tokens)*
-*v3.0.0: Selective loading (core + one format = 4.5-8K tokens)*
-
-## Backward Compatibility
-
-**v2.1.0 file status**: Preserved as `cp-writing-style-guide.md`
-- Legacy users can continue using v2.1.0
-- v3.0.0 files created alongside (not replacing)
-- See `MIGRATION-GUIDE.md` for detailed section mapping
-
-## Migration Path
-
-If you're familiar with v2.1.0:
-1. Read `MIGRATION-GUIDE.md` for section mapping
-2. Learn new modular loading pattern (core + format)
-3. Review at-a-glance specs tables in each format module
-4. Familiarize with MUST/SHOULD/MAY hierarchy
-5. Use `quick-reference.md` for rapid lookups
 
 ---
 
 **For detailed guidance**: Load the appropriate module files based on your task.
-**For migration help**: See `MIGRATION-GUIDE.md`
 **For quick lookups**: See `quick-reference.md`
