@@ -17,9 +17,11 @@ Expert guidance on writing in Chamath Palihapitiya's communication style across 
 - Policy Ideas Briefs (3,000-5,000 words)
 - Learn with Me Presentations (40-80 slides)
 
-**NEW in v3.0.0**: Modular architecture with 85-90% token reduction per task through selective context loading.
-
-Includes 10 universal principles, format-specific playbooks, templates, decision frameworks, and quality control checklists.
+**Key Features**:
+- Modular architecture with selective context loading (85-90% token reduction)
+- 10 universal principles including CRITICAL RULE: Never fabricate data
+- Format-specific playbooks with templates and decision frameworks
+- Quality control checklists for each format
 
 ## How to Use
 
@@ -88,10 +90,10 @@ To contribute updates to skills, create a PR against this repo.
 - Decision framework for choosing the right format
 - Quality control checklists
 
-**Architecture** (v3.0.0):
+**Architecture**:
 - **Modular design**: 7 specialized files for selective context loading
-- **85-90% token reduction** per typical task vs v2.1.0
 - **Core + Format pattern**: Load `core-principles.md` + specific format module as needed
+- **Token efficient**: Loads only what's needed for each task
 
 **Documentation structure**:
 ```
@@ -106,7 +108,7 @@ To contribute updates to skills, create a PR against this repo.
 └── quick-reference.md (Cheatsheet for quick lookups)
 ```
 
-**Migration from v2.1.0**: The monolithic guide has been replaced by modular files for better LLM performance. All content preserved, just reorganized for efficiency.
+**Important**: The "Data Over Adjectives" principle includes a critical rule - never fabricate data. Use bracketed placeholders `[Need: description]` when data is missing from source material.
 
 ## Contributing
 
