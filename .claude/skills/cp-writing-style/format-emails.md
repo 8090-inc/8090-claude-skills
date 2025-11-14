@@ -2,9 +2,9 @@
 
 **Purpose**: Tactical communication, quick decisions, brief directives
 
-**Prerequisites**: Load `core-principles.md` first. This module assumes you understand the 11 Universal Principles.
+**Prerequisites**: Load `core-principles.md` first. This module assumes you understand the 10 Universal Principles.
 
-**Version**: 4.0.0
+**Version**: 4.1.0
 
 ---
 
@@ -54,8 +54,6 @@ Put more simply, Distribution > Product
 **Greeting**: None
 **Closing**: None
 
-**RIZZ Application**: Often uses metaphor systems and intellectual flex (showing learning through external sources). May include contrarian positioning if sharing unconventional wisdom.
-
 ---
 
 ### Type 2: Personnel Communication
@@ -88,8 +86,6 @@ I let Krisha go today. I want to thank her for her effort and contributions and 
 
 **Critical**: Balance honesty with respect. No euphemisms ("let go" not "parted ways"), but acknowledge contributions before stating next steps.
 
-**RIZZ Application**: Selective vulnerability (acknowledge person's contributions) + honesty first (no euphemisms). Energy level measured and respectful.
-
 ---
 
 ### Type 3: Tactical Directive
@@ -117,8 +113,6 @@ You need to acknowledge their perception in your note. Start with that so it sta
 - Minimal reasoning (only if needed for context)
 - Clear accountability ("Run it by [name]")
 - "pls" not "please"
-
-**RIZZ Application**: No RIZZ needed - pure efficiency. Energy level low (2-4/10), focus on clarity and speed.
 
 ---
 
@@ -150,7 +144,7 @@ Week Ending [Date]
 - Specific praise for individuals/teams
 - Can mix multiple topics (unlike Types 1-3)
 
-**RIZZ Application**: FULL RIZZ - Energy modulation is essential. Selective vulnerability builds trust. Metaphor systems for complex ideas. This is the ONE email type where RIZZ is mandatory.
+**Note**: Internal team emails naturally have more personality and emotional range than tactical emails - that's appropriate for the format and helps build team culture.
 
 **For complete guidance**: Load `format-internal-team-emails.md` for full playbook with 5 complete examples.
 

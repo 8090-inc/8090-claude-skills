@@ -4,7 +4,7 @@
 
 **Prerequisites**: Load `core-principles.md` first.
 
-**Version**: 4.0.0
+**Version**: 4.1.0
 
 ---
 
@@ -330,36 +330,9 @@ we could have. It is critical that we hold ourselves to the highest quality bar 
 
 ---
 
-## RIZZ Applications for Internal Context
-
-**Which RIZZ components to use**:
-- ✅ **Energy Modulation**: Essential (celebrate vs. correct vs. teach)
-- ✅ **Selective Vulnerability**: Important (admit mistakes, show humanity)
-- ⚠️ **Intellectual Flex**: Moderate (show learning, reference books/podcasts)
-- ❌ **Contrarian Positioning**: Rare (not needed for internal alignment)
-- ❌ **Debate Tactics**: Skip (not debating, directing)
-
-**Energy Modulation is Primary**:
-- Single email can range from 3/10 (measured teaching) to 9/10 (celebration or correction)
-- Tone shifts between points signal what matters most
-- ALL CAPS and !!!! reserved for highest-priority celebrations/corrections
-
-**Selective Vulnerability Builds Trust**:
-- Admit when you dropped ball ("should have updated you sooner")
-- Share personal struggles ("tired and miss my kids")
-- Acknowledge uncertainty ("I don't know this to be exactly true but...")
-
-**Metaphor Systems for Complex Ideas**:
-- Books/Chapters (company evolution)
-- Sports (fundamentals, team-building)
-- Science (forcing functions, boundary conditions)
-- SpaceX Phases (long-term journey)
-
----
-
 ## Complete Email Examples
 
-Below are 5 full "Top of Mind" emails from 8090.ai (Jan-May 2025) demonstrating different energy modes and RIZZ applications.
+Below are 5 full "Top of Mind" emails from 8090.ai (Jan-May 2025) demonstrating different tones and approaches for internal team updates.
 
 ---
 
@@ -378,13 +351,6 @@ Below are 5 full "Top of Mind" emails from 8090.ai (Jan-May 2025) demonstrating 
 
 (3) Let's try to string a few more weeks like this one together. You will be surprised both by how you feel and what you are capable of if we do.
 
-**RIZZ Analysis**:
-- **Energy**: 8/10 - High celebration, bold text on "FIRST week"
-- **Vulnerability**: "9 months to first good week" (radical honesty)
-- **Metaphor**: Rollercoaster analogy (startup journey)
-- **Specific Praise**: Names Ale, Sepehr; quantifies "$700k ARR"
-- **Forward-Looking**: "Let's try to string a few more weeks together"
-
 ---
 
 ### Example 2: Corrective (Stark Feedback)
@@ -398,13 +364,6 @@ Below are 5 full "Top of Mind" emails from 8090.ai (Jan-May 2025) demonstrating 
 (3) I had an initial meeting with Eli Lilly CEO Dave Ricks. He is interested in exploring Software Factory and how it can help him and Lilly depreciate some old systems. This is the 12th largest company in the S&P500 so it will be an interesting test if we are ready to take on this kind of customer.
 
 (4) We are making good progress moving some of our deals through the pipeline. But it needs to be faster and the deal sizes need to be bigger if we are to achieve our $20M goal for CY2025.
-
-**RIZZ Analysis**:
-- **Energy**: 9/10 - Stark correction with zero diplomatic buffer
-- **Direct Feedback**: "You suck at X. Do Y instead." pattern
-- **Context**: Explains why (startup vs. big company competencies)
-- **Balance**: Harsh feedback + celebration of SF progress
-- **Specific**: Names customer (Eli Lilly CEO), quantifies goal ($20M)
 
 ---
 
@@ -423,14 +382,6 @@ Below are 5 full "Top of Mind" emails from 8090.ai (Jan-May 2025) demonstrating 
     (b) When you look at SpaceX, you may get lost in their valuation ($350B+) or revenues ($8B+) or their predictability. But you would be missing something very important which the image above demonstrates. SpaceX was started in 2003 and until 2011 was sideways. They had a small success in 2008 but it wasn't until the beginning of 2011 that they started to generate momentum. This was the first time that they saw predictability and reusability from Raptor1. In many ways, this was the first phase of SpaceX…and it took 8 years! Phase1 is all about engineering exploration, troubleshooting, problem solving and tedious blocking and tackling. Its not glamorous and often times can seem very unrewarding. That said, its the ticket to run the race. Phase 2 (Raptor2) is the scaling phase where you are no longer a novelty but a market leader. That is a 10+ year journey if meticulous improvement and iteration. Then Phase 3 starts - this can be a multi-decade period where you are redefining the future.
     (c) The point in this is that we can be on an equally exciting journey. But it will be a long time and it will be hard. Phase1 is where we are now - but if we figure out how to build SF and HPC as we build a strong revenue business, we have a shot at Phase2. Phase 2 will allow us to grow into a multi-hundred billion dollar company. Phase 3 will be about building Cofounder and can be measured in Trillions.
     (d) If all of this sounds exciting to you, it does to me as well. But for the next 5-10 years, we are a Phase 1, Day 1 runt. We will need to grind but it will be worth it.
-
-**RIZZ Analysis**:
-- **Energy**: 5/10 - Measured, teaching tone
-- **Metaphor System**: SpaceX 3-phase evolution (sustained throughout)
-- **Visual Aid**: Raptor engine image with context
-- **Quantification**: "$350B+," "$8B+," "8 years," "multi-hundred billion"
-- **Journey Framing**: Phase 1 (8 yrs) → Phase 2 (10+ yrs) → Phase 3 (decades)
-- **Vulnerability**: "Phase 1, Day 1 runt" (honest about current state)
 
 ---
 
@@ -452,14 +403,6 @@ Below are 5 full "Top of Mind" emails from 8090.ai (Jan-May 2025) demonstrating 
 
 (6) Have a wonderful long weekend.
 
-**RIZZ Analysis**:
-- **Energy**: 3/10 (vulnerable opening) → 7/10 (excited closing)
-- **Vulnerability**: "Should have done a better job... I will try to do better"
-- **Quantification**: "1M errors" with qualification ("I don't know this to be exactly true")
-- **Intellectual Honesty**: Admits imprecise number, explains why it's still useful
-- **Gratitude**: "I really appreciate all of you"
-- **Forward-Looking**: "Let's" repetition (rally cry)
-
 ---
 
 ### Example 5: First-Principles Teaching + Vulnerability
@@ -478,15 +421,6 @@ Below are 5 full "Top of Mind" emails from 8090.ai (Jan-May 2025) demonstrating 
         (iii) The solution may mean that some people are miscast in the wrong role or even in the company. That's difficult to hear but it may be true.
 
 (3) Why am I bringing this up? We are in an important phase of the business where it may look ok from the outside, but this is the moment where the compounding rate of errors we allow to remain in the system today will kill us 18-24 months from now. I see several projects that are excruciatingly difficult and may be leading to burnout and frustration. I also see efforts to brute force things versus say the hard part out loud and retool. We need to find a way of solving these problems or we will fail.
-
-**RIZZ Analysis**:
-- **Energy**: 6/10 - Measured but urgent
-- **First-Principles**: Breaks down failure modes (fraud 2%, mis-execution 98%)
-- **Honest Diagnosis**: "we are dumb OR we are not coordinated well"
-- **Vulnerability**: "may be leading to burnout and frustration"
-- **Stakes**: "will kill us 18-24 months from now" (specific timeline)
-- **Directive**: "communicating hyper bluntly and honestly"
-- **Uncomfortable Truth**: "some people are miscast...that's difficult to hear but it may be true"
 
 ---
 
@@ -510,10 +444,8 @@ Before sending internal team email, verify:
 - [ ] Data/metrics quantify claims?
 - [ ] Visual aids (tables, diagrams) included if helpful?
 - [ ] Feedback direct but respectful?
-
-**RIZZ Application**:
-- [ ] Vulnerability strategic (admits failures upfront)?
-- [ ] Metaphor system sustained (if teaching complex idea)?
+- [ ] Vulnerability included where appropriate (admits failures upfront)?
+- [ ] Metaphor system sustained if teaching complex idea?
 - [ ] Context provided for "why this matters"?
 
 **Closing**:
@@ -522,4 +454,4 @@ Before sending internal team email, verify:
 
 ---
 
-**Next**: See `advanced-rhetoric.md` for full RIZZ deep dive, or `core-principles.md` for universal guidance.
+**Next**: See `core-principles.md` for universal guidance or `quick-reference.md` for cheat sheet.
