@@ -2,11 +2,11 @@
 
 **Purpose**: Ultra-fast lookup for rules, checklists, and decision points
 
-**Version**: 3.0.0
+**Version**: 4.0.0
 
 ---
 
-## The 10 Commandments (One-Line Version)
+## The 11 Commandments (One-Line Version)
 
 1. **Radical Clarity**: Say it simpler
 2. **Data Over Adjectives**: Show numbers, not descriptions
@@ -18,6 +18,7 @@
 8. **Attribution**: Credit sources
 9. **Forward-Looking**: Point to next, drive outcomes
 10. **Format Function**: Structure serves message
+11. **Strategic Authenticity (RIZZ)**: Deploy charisma through vulnerability, energy, and intellectual flex
 
 ---
 
@@ -27,6 +28,7 @@
 |---------|--------|--------|-----------|
 | Annual strategic reflection | Annual Letter | 2-5K words | `format-annual-letters.md` |
 | Progress + accountability | Customer Brief | 500-2K words | `format-customer-briefs.md` |
+| Internal team updates | Team Email | 200-600 words | `format-internal-team-emails.md` |
 | Policy recommendations | Policy Ideas Brief | 3-5K words | `format-policy-ideas.md` |
 | Educational deep-dive (visual) | Learn with Me | 40-80 slides | `format-learn-with-me.md` |
 | Quick directive | Email | 50-200 words | `format-emails.md` |
@@ -236,6 +238,117 @@ Target reductions:
 | **Internal team** | Casual conversational | Very high (use jargon) | Zero (be direct) |
 | **Founders (advice)** | Professional warm | Moderate (principles not tactics) | Some (you're teaching) |
 | **Policymakers** | Policy professional | Very high (expertise assumed) | Minimal (confident authority) |
+
+---
+
+## RIZZ CHEATSHEET (Principle 11)
+
+**For full deep-dive**: Load `advanced-rhetoric.md`
+
+### Energy Modulation Matrix
+
+| Purpose | Energy Level | When to Use | Example Phrases |
+|---------|--------------|-------------|-----------------|
+| **Celebration** | 8-10/10 | Team wins, deals closed, hiring success | "FIRST week where I felt we executed well," "PETE DOWNEY!!!!" |
+| **Correction** | 8-9/10 | Direct feedback, urgent fixes | "You suck at X. Do Y instead." |
+| **Teaching** | 4-6/10 | Philosophical lessons, frameworks | "The distance between us and success is ~1M errors" |
+| **Gratitude** | 5-7/10 | Acknowledging team effort | "I really appreciate all of you" |
+| **Vulnerability** | 3-5/10 | Admitting mistakes, apologizing | "I should have done a better job... I will try to do better" |
+
+### Selective Vulnerability Strategy
+
+**What to Admit** (Strategic):
+- ✅ Past financial errors with specific numbers: "$3-4B Bitcoin mistake"
+- ✅ Intellectual evolution: "I was wrong about Trump"
+- ✅ Personal struggles: "I'm just tired and miss my kids"
+- ✅ Process failures: "should have done better job of updating you"
+
+**What to Avoid** (Defensive):
+- ❌ Real-time contradictions (don't admit error while making same error)
+- ❌ Generic apologies ("mistakes were made")
+- ❌ Deflecting power/privilege
+
+**Pattern**: Pre-emptive vulnerability → permission for confidence
+
+### Metaphor Systems Library
+
+| Domain | Use Case | CP Example |
+|--------|----------|------------|
+| **Books/Chapters** | Company evolution stages | "Prologue → Introduction → Chapter 1" |
+| **Sports** | Team building, execution | "Fundamentals," "buying ticket to rollercoaster" |
+| **Science** | Processes, constraints | "Forcing functions," "boundary conditions" |
+| **Journey/Phases** | Long-term vision | "SpaceX Phase 1 (8 yrs) → Phase 2 (10+ yrs) → Phase 3" |
+
+### Feedback Patterns
+
+| Type | Structure | Example |
+|------|-----------|---------|
+| **Direct Correction** | "[Problem]. [Command]. [Reason]." | "You suck at politics. Escalate to me and get back to your strengths." |
+| **Constructive** | "[What didn't work] because [why]. Solution: [action]." | "Team did poor job managing this. We'll meet late in week to review priorities." |
+| **Appreciative** | "[Name]'s [specific action] [why it matters]" | "I appreciated Andrew and Vivian's ownership of their role" |
+
+### Intellectual Flex (Show, Don't Tell)
+
+**Tactics**:
+- 🎯 **Data Fluency**: Drop specific numbers casually ("$150B AI investment," "Fed cut from 5.33% to 4.75%")
+- 📚 **"Learn with Me"**: Frame as learning journey ("I was looking at failure modes in startups last night")
+- ❓ **Valorize "I don't know"**: Makes actual knowledge claims more credible
+- 🗣️ **Plain Language + Density**: Complex ideas in simple words
+
+**What NOT to do**: "I've studied this extensively," "As an expert," "I know a lot about..."
+
+### Contrarian Positioning Formula
+
+**When to Use**: Public thought leadership, building personal brand
+
+**Formula**: [Elite Credential] + [Insider Experience] + [Public Rejection of Consensus] = Authority + Authenticity
+
+**Examples**:
+- Former Facebook VP critiques social media
+- VC calls VCs "soulless cowards"
+- Elite education holder says "college was exact opposite of good advice"
+
+**Risk**: Must pre-empt hypocrisy with Principle 3 (Honesty First)
+
+### Debate Tactics (Quick Ref)
+
+**For high-stakes public communications only**:
+
+1. **Socratic Hammer**: Repeated questioning to expose contradictions ("Who says that? Who says that?")
+2. **Rephrasing Trap**: "That's what you're saying. You may not know that's what you're saying, but that's what you're saying."
+3. **Data Asymmetry**: Provide specific numbers, challenge opponent's vague claims
+4. **False Binary**: "Either rise to meet the moment or disappear"
+
+### Zinger Construction
+
+**5-Element Formula**:
+1. Binary/contrastive structure ("X > Y," "X vs. Y")
+2. Name enemies specifically ("soulless cowards" not "some people")
+3. Unexpected insider attack (attack own class/industry)
+4. Specific numbers ("$3-4B mistake" not "big mistake")
+5. Emotional honesty (raw feeling words: "vacant and empty," "pain and suffering")
+
+**Example**: "Often wrong, never in doubt" (binary, 4 words, memorable)
+
+### RIZZ Context Calibration
+
+| Context | RIZZ Components to Use | Skip |
+|---------|------------------------|------|
+| **Internal team emails** | Energy modulation, vulnerability, metaphors | Contrarian positioning, debate tactics |
+| **External partners** | Intellectual flex, measured energy | Vulnerability, debate tactics |
+| **Public/investors** | FULL RIZZ (all components) | None |
+| **Tactical emails** | None (pure efficiency) | All |
+
+### RIZZ Quality Check
+
+Before sending high-stakes communication:
+- [ ] Energy level matches purpose (celebrate/correct/teach)?
+- [ ] Vulnerability strategic (specific numbers, not generic)?
+- [ ] Metaphor system sustained throughout (if teaching)?
+- [ ] At least one quotable zinger (binary + specific + emotional)?
+- [ ] Intellectual flex demonstrated through deployment, not declaration?
+
+**For complete RIZZ training**: Load `advanced-rhetoric.md`
 
 ---
 

@@ -2,8 +2,8 @@
 
 **Purpose**: Universal rules that apply to ALL CP communications. Load this file for every writing task.
 
-**Version**: 3.0.0
-**Last Updated**: October 2025
+**Version**: 4.0.0
+**Last Updated**: November 2025
 
 ---
 
@@ -37,7 +37,7 @@ Teaching complex topic (prose format)
 
 ---
 
-## The 10 Universal Principles
+## The 11 Universal Principles
 
 These rules apply to **ALL** CP communications, regardless of format or audience.
 
@@ -82,6 +82,10 @@ If data is missing, use bracketed placeholders: `[Need: annual CRD volume]` or e
 - State constraints, limitations, dependencies explicitly
 - **When data is missing**: Use `[Need: description of missing data]` or state "no data available"
 - **When estimating**: Explicitly label as estimate AND cite methodology: "estimated ~$2M based on [cite source/method]"
+- **When using imprecise calculations**: Qualify with explicit uncertainty statement
+  - Use "~" notation for approximations
+  - Immediately acknowledge imprecision: "~40% (this math isn't highly precise but it frames our problem)"
+  - Explain why the imprecise number is still useful despite uncertainty
 
 **Example**:
 ```
@@ -338,6 +342,73 @@ From emails:
 
 ---
 
+### Principle 11: Strategic Authenticity (The RIZZ Factor)
+
+**SHOULD**: Deploy charisma through selective vulnerability, energy modulation, and intellectual demonstration to make communications compelling beyond pure data.
+
+**What it is**: The performance layer that makes CP distinctive - not just WHAT is said (data, clarity), but HOW it's said (intensity, vulnerability, positioning) to maximize impact and memorability.
+
+**Four Components**:
+
+**1. Selective Vulnerability** (Earn License for Boldness)
+- **Admit specific failures** (with numbers) to establish credibility before making bold claims
+- **Pattern**: Pre-emptive concession → permission for confidence
+- **What to admit**: Past financial errors ("$3-4B Bitcoin mistake"), intellectual evolution ("I was wrong about Trump"), personal struggles (childhood trauma, exhaustion)
+- **What to avoid**: Real-time contradictions, generic apologies, deflecting power/privilege
+- **Example**: "Often wrong, never in doubt. I get a lot of stuff wrong. Most of the time I'm wrong. I'm not ashamed of being wrong." → This earns license to be confident elsewhere
+
+**2. Energy Modulation** (Match Intensity to Purpose)
+- **Dial UP (High Intensity)**: Celebration moments, direct corrections, defending contrarian positions, exposing contradictions
+- **Dial DOWN (Measured)**: Long-form teaching, making predictions, acknowledging errors, philosophical reflection
+- **Application**: Tone shifts signal importance and stakes
+- **Example (Internal)**: "PETE DOWNEY!!!!" vs. "Taking a step back, my feedback was stark: 'You suck at politics'"
+- **Example (Public)**: "Who says that? Who says that?" (aggressive repetition) vs. systematic analysis in annual letters
+
+**3. Intellectual Flex Without Pomposity** (Show, Don't Tell)
+- **Deploy expertise** through data and analysis, never declare "I'm smart"
+- **Use "Learn with Me" framing** - continuous learning vs. arrived expertise
+- **Valorize "I don't know"** - makes actual knowledge claims more credible
+- **Plain language + density** = accessible intelligence
+- **Example**: Opening 2024 Annual Letter with Fed rates, $150B AI investment figures (shows fluency) vs. saying "I know a lot about finance"
+
+**4. Contrarian Positioning** (Public Contexts)
+- **Formula**: [Elite Credential] + [Insider Experience] + [Public Rejection of Elite Consensus] = Authority + Authenticity
+- **Application**: Attack own class/industry when you have insider credibility
+- **Example**: Former Facebook VP critiques social media ("dopamine-driven feedback loops destroying society"); VC calls VCs "soulless cowards"
+- **Risk**: Must pre-empt hypocrisy charges through Principle 3 (Honesty First)
+- **When to use**: Public thought leadership, building personal brand as truth-teller
+- **When to skip**: Internal team coordination, tactical emails, customer briefs
+
+**When to Apply**:
+- **MUST use**: Internal team emails (especially energy modulation for correction vs. celebration)
+- **SHOULD use**: Public thought leadership, annual letters, contentious debates
+- **MAY skip**: Tactical emails, routine customer updates, policy briefs
+
+**Context Calibration**:
+- **Internal team**: Energy modulation + selective vulnerability (admit mistakes, celebrate wins with intensity)
+- **External partners**: Measured energy + intellectual demonstration (less vulnerability, more expertise)
+- **Public/investors**: Full RIZZ (contrarian positioning, vulnerability, debate tactics, zingers)
+
+**Example (Full RIZZ)**:
+```
+GameStop debate:
+"So basically what you're saying is, 'Hey, if retail runs a momentum play to squeeze a short, that's wrong. But hey if Renaissance Technologies does it, that's okay.' That's what you're saying. You may not know that's what you're saying, but that's what you're saying."
+[Rephrasing trap + aggressive repetition + exposing double standard = RIZZ]
+```
+
+**Example (Internal RIZZ)**:
+```
+Week 3/14/25 email:
+"this was the FIRST week since we started the company where I felt we executed well. In other words, our 'time to first good week' was about 9 months."
+[Radical honesty + specific metric + celebration energy = internal RIZZ]
+```
+
+**When to deviate**: Skip RIZZ for pure technical documentation, legal communications, crisis management where diplomatic framing needed.
+
+**For deep dive**: Load `advanced-rhetoric.md` for debate tactics, zinger construction, and contrarian positioning frameworks.
+
+---
+
 ## Banned & Golden Elements
 
 ### Banned Words/Phrases
@@ -465,9 +536,9 @@ Optimize in this order:
 - Use placeholders for missing data
 - Don't self-edit yet
 
-**PASS 2: Apply All 10 Principles** (Don't skip any!)
+**PASS 2: Apply All 11 Principles** (Don't skip any!)
 - [ ] **Principle 1 (Clarity)**: Plain language? Vague pronouns removed?
-- [ ] **Principle 2 (Data)**: Used only source data? Placeholders for missing data? NO FABRICATION?
+- [ ] **Principle 2 (Data)**: Used only source data? Placeholders for missing data? NO FABRICATION? Imprecise numbers qualified?
 - [ ] **Principle 3 (Honesty)**: Failures acknowledged upfront?
 - [ ] **Principle 4 (First-Principles)**: Explained "why" from fundamentals? (if strategic doc)
 - [ ] **Principle 5 (Economy)**: Cut every wasted word? Removed corporate jargon?
@@ -476,6 +547,7 @@ Optimize in this order:
 - [ ] **Principle 8 (Attribution)**: Cited sources? (if applicable)
 - [ ] **Principle 9 (Forward)**: Clear next steps? Roadmap? Asks?
 - [ ] **Principle 10 (Format)**: Right structure for audience?
+- [ ] **Principle 11 (RIZZ)**: Energy modulated? Vulnerability strategic? (if internal team email or public comms)
 
 **PASS 3: Ruthless Cutting** (Target: Cut 30% more)
 - Read each sentence

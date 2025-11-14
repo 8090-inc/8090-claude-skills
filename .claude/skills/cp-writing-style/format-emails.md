@@ -2,9 +2,9 @@
 
 **Purpose**: Tactical communication, quick decisions, brief directives
 
-**Prerequisites**: Load `core-principles.md` first. This module assumes you understand the 10 Universal Principles.
+**Prerequisites**: Load `core-principles.md` first. This module assumes you understand the 11 Universal Principles.
 
-**Version**: 3.0.0
+**Version**: 4.0.0
 
 ---
 
@@ -24,9 +24,9 @@
 
 ---
 
-## The Three Email Types
+## The Four Email Types
 
-Every email fits one of three patterns. **Never mix types.**
+Every email fits one of four patterns. **Never mix types.**
 
 ### Type 1: Business Philosophy Sharing
 
@@ -53,6 +53,8 @@ Put more simply, Distribution > Product
 **Length**: 100-200 words
 **Greeting**: None
 **Closing**: None
+
+**RIZZ Application**: Often uses metaphor systems and intellectual flex (showing learning through external sources). May include contrarian positioning if sharing unconventional wisdom.
 
 ---
 
@@ -86,6 +88,8 @@ I let Krisha go today. I want to thank her for her effort and contributions and 
 
 **Critical**: Balance honesty with respect. No euphemisms ("let go" not "parted ways"), but acknowledge contributions before stating next steps.
 
+**RIZZ Application**: Selective vulnerability (acknowledge person's contributions) + honesty first (no euphemisms). Energy level measured and respectful.
+
 ---
 
 ### Type 3: Tactical Directive
@@ -113,6 +117,42 @@ You need to acknowledge their perception in your note. Start with that so it sta
 - Minimal reasoning (only if needed for context)
 - Clear accountability ("Run it by [name]")
 - "pls" not "please"
+
+**RIZZ Application**: No RIZZ needed - pure efficiency. Energy level low (2-4/10), focus on clarity and speed.
+
+---
+
+### Type 4: Internal Team Updates
+
+**Use when**: Weekly or monthly progress reports to internal team, cultural reinforcement, strategic context-setting
+
+**Structure**:
+```
+Week Ending [Date]
+
+(1) First major point
+    (a) Sub-point one
+    (b) Sub-point two
+(2) Second major point
+...
+```
+
+**Example**: See full examples in `format-internal-team-emails.md`
+
+**Length**: 200-600 words (average ~350)
+**Greeting**: None (jump straight to "Week Ending [Date]")
+**Closing**: Forward-looking or gratitude
+
+**Key elements**:
+- Numbered hierarchy (1 → a → i)
+- Energy modulation (celebrate/correct/teach/grateful/vulnerable)
+- Visual aids (tables, diagrams) when applicable
+- Specific praise for individuals/teams
+- Can mix multiple topics (unlike Types 1-3)
+
+**RIZZ Application**: FULL RIZZ - Energy modulation is essential. Selective vulnerability builds trust. Metaphor systems for complex ideas. This is the ONE email type where RIZZ is mandatory.
+
+**For complete guidance**: Load `format-internal-team-emails.md` for full playbook with 5 complete examples.
 
 ---
 
