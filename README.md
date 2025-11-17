@@ -23,6 +23,22 @@ Expert guidance on writing in Chamath Palihapitiya's communication style across 
 - Format-specific playbooks with templates and decision frameworks
 - Quality control checklists for each format
 
+#### 📊 Status Report (`status-report`) - v1.0.0
+
+Automated weekly status report generation for 8090 project management teams following the standardized format (adopted November 17, 2025):
+- Flexible, narrative-driven format adapting to each project's reality
+- Project-specific deadline tracking with cumulative delay calculations
+- Blocker identification with risk levels (High/Medium/Low)
+- Software Factory Usage and Feedback metrics
+- Work narrative sections (Work This Week, Next Steps)
+
+**Key Features**:
+- Automatically finds and reads previous week's report for context
+- Gathers project context from files and meeting notes
+- Generates comprehensive status updates with executive-ready blocker analysis
+- Phase-appropriate content (Requirements/Development/Maintenance)
+- Quality control checklist for consistency
+
 ## How to Use
 
 ### Option 1: Work in This Repo (Recommended for Writing Tasks)
@@ -43,6 +59,8 @@ Ask Claude things like:
 - "Review this customer brief"
 - "What format should I use for this communication?"
 - "Show me the template for a policy ideas brief"
+- "Create this week's status report for [project]"
+- "Generate weekly update"
 
 ### Option 2: Copy Skills to Your Project
 
@@ -78,6 +96,38 @@ git pull origin main
 To contribute updates to skills, create a PR against this repo.
 
 ## Skill Details
+
+### Status Report (v1.0.0)
+
+**When it activates**: Claude automatically uses this skill when you ask to create status reports, weekly updates, or project progress reports.
+
+**What it provides**:
+- Automated status report generation following 8090's standardized format
+- Previous report context gathering for continuity
+- Project-specific deadline naming (not rigid categories)
+- Detailed blocker analysis with risk levels and stakeholder details
+- Engineering metrics across four categories (Refinery/Foundry/Planner/Validator)
+- Work narrative sections for stakeholder context
+
+**Format**:
+- **Header**: Client, Project, POC, Descriptive Phase
+- **Timeline**: Project-specific deadlines with cumulative delays
+- **Milestones**: Demo dates, release dates
+- **Status**: Blockers (MOST IMPORTANT), Notes, Work This Week, Next Steps
+- **Metrics**: Software Factory Usage and Feedback table
+
+**Documentation structure**:
+```
+.claude/skills/status-report/
+├── SKILL.md (main instructions and workflow)
+├── template.md (complete format specification)
+└── examples.md (real-world examples across project phases)
+```
+
+**Filename convention**: `CATEGORY_ClientName_ProjectName_YYYYMMDD.md`
+- Example: `HEALTH_HealthCorp_PatientPortal_20251119.pdf`
+
+**Important**: Format is flexible and narrative-driven. Deadline names, phase descriptions, and content adapt to each project's reality while maintaining consistent structure.
 
 ### CP Writing Style (v3.0.0)
 
